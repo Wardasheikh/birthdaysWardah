@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardah's Birthday Celebration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>🎉 Countdown to Wardah's Birthday! 🎉</h1>
+            <p>Join me in celebrating another year of joy and adventure!</p>
+            <div class="countdown">
+                <p id="countdown-timer">Loading...</p>
+            </div>
+            <button onclick="celebrate()">Celebrate with Wardah Irshad</button>
+        </div>
+        
+        <!-- Confetti Canvas -->
+        <canvas id="confetti-canvas"></canvas>
+
+        <!-- Popup Message -->
+        <div id="popup" class="popup hidden">
+            <p>In Advance Happy Birthday, Wardah Irshad! 🎂🎈 May your day be filled with joy and love!</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
